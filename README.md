@@ -25,10 +25,7 @@ This library provides a lightweight solution for encoding and decoding messages 
 You can install the Simple Message Codec using npm:
  1 tsc init
  2 npm install
-edit tsconfig.json 
-     "types": ["node", "jest"],
-     "target": "es2017",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-     "lib": ["es2017"],        
+      
 
 
 ## Assumptions
