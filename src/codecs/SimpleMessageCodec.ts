@@ -7,9 +7,9 @@ import { MessageCodec } from "../interfaces/MessageCodec";
  */
 class SimpleMessageCodec implements MessageCodec {
   // Constants
-  private static MAX_HEADER_SIZE = 1023;
-  private static MAX_HEADER_COUNT = 63;
-  private static MAX_PAYLOAD_SIZE = 256 * 1024; // 256 KiB
+    public static MAX_HEADER_SIZE = 1023;
+    public static MAX_HEADER_COUNT = 63;
+    public static MAX_PAYLOAD_SIZE = 256 * 1024; // 256 KiB
 
   /**
    * Encodes a message into a Uint8Array.
